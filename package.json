@@ -1,0 +1,25 @@
+{
+  "name": "visibility-checker",
+  "version": "1.0.0",
+  "description": "A lightweight library for checking element visibility on the screen using IntersectionObserver.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "visibility",
+    "IntersectionObserver",
+    "element visibility"
+  ],
+  "author": "Dmitry Budkov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmbudkov/visibility-checker"
+  },
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  }
+}
