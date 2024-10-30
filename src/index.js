@@ -31,5 +31,4 @@ class VisibilityChecker {
     }
 }
 
-module.exports = VisibilityChecker;
 export default VisibilityChecker;
